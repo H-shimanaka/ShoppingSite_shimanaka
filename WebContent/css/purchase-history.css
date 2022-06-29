@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+table{
+	width:90%;
+	margin:50px auto;
+	border:solid 1px black;
+}
+
+td{
+	border:solid 1px black;
+}
+
+.return-button{
+	width:100%;
+	text-align:center;
+}
+
+input{
+	width:50%;
+	height:40px;
+	background-color: #3a3a3a;
+	color:#fff;
+	border-width:1px;
+}
+
+input:hover{
+	background-color: red;
+}

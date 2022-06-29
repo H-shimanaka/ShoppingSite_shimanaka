@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+/* 背景画像のcss*/
+.head-img{
+	width:100%;
+	min-height:80vh;
+	background-image:url('../img/main-img2.jpg');
+	background-size:cover;
+	background-repeat: norepeat;
+}
+
+.head-img p{
+	margin:0;
+	color:#fff;
+	font-size:500%;
+	text-align:center;
+	position:absolute;
+	top:50%;
+	width:100%;
+	font-family: 'Dancing Script', cursive;
+}
+
+
+/*商品一覧のcss*/
+.container{
+	width:95%;
+	margin:0 auto;
+	padding:5% 0;
+	min-height:100vh;
+	background-color: #fff
+}
+
+.container ul{
+	margin:0;
+	list-style:none;
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.convenient-menu{
+	width:100%;
+	text-align:center;
+}
+
+.convenient-menu form{
+	width:50%;
+	text-align:center;
+	border:solid 1px black;
+	border-radius:5px;
+	margin:5% auto;
+}
+
+.convenient-menu input[type="text"]{
+	width:30%;
+	height:40px;
+}
+
+.convenient-menu input[type="submit"]{
+	width:20%;
+	height:40px;
+	background-color: #3a3a3a;
+	color:#fff;
+	border-width:1px;
+}
+
+.convenient-menu input[type="button"]{
+	width:20%;
+	height:40px;
+	background-color: #3a3a3a;
+	color:#fff;
+	border-width:1px;
+}
+
+
+.convenient-menu input[type="submit"]:hover{
+	background-color: red;
+}
+
+.convenient-menu input[type="button"]:hover{
+	background-color: red;
+}
+
+.items{
+	width:24%;
+	text-align: center;
+	border:solid 1px #3a3a3a;
+	border-radius:5px;
+	padding: 2.5%;
+	margin:1% 2%;
+}
+
+.items-img{
+	max-width:100%;
+	object-fit:contain;
+}
+
+
+#insertCart{
+	width:50%;
+	height:40px;
+	background-color: #3a3a3a;
+	color:#fff;
+	border-width:1px;
+	margin:auto;
+}
+
+#insertCart:hover{
+	background-color: red;
+	color:#fff;
+}
+
+.NoHitKeyword{
+	width:100%;
+	margin:10% auto;
+	text-align:center;
+}
+
+.NoHitKeyword h2{
+	color:red;
+}
+
+

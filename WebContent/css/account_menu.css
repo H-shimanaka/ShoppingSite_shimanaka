@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+form{
+	width:70%;
+	height:90%;
+	border:solid 0.5px black;
+	padding:2.5% 2.5%;
+	margin:0 auto;
+}
+
+div{
+	text-align: center;
+	margin:10% 0;
+}
+
+input{
+	width:40%;
+	height:40px;
+	background-color:#3a3a3a;
+	color:#fff;
+	margin:2% 0;
+	border-width:1px;
+}
+
+input:hover{
+	background-color: red;
+}
+
+button{
+	width:40%;
+	height:40px;
+	background-color:#3a3a3a;
+	color:#fff;
+	margin:2% 0;
+	border-width:1px;
+}
+
+button:hover{
+	background-color: red;
+}

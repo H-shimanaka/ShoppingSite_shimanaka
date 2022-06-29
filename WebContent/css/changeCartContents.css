@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+body{
+	display:flex;
+}
+
+ul{
+	list-style:none;
+}
+
+
+/*商品画像のcss*/
+.item-photo{
+	width:40%;
+	display:flex;
+	margin:40px auto;
+}
+
+.item-photo img{
+	max-width:100%;
+	object-fit:contain;
+}
+
+
+/*商品変更フォームのcss*/
+.update_delete{
+	width:40%;
+	margin:40px auto;
+	border:solid 0.5px black;
+	padding:3%;
+}
+
+.update_delete li{
+	margin:3% 0;
+}
+
+.update_delete input[type="text"]{
+	width:30%;
+	height:30px;
+}
+
+textarea{
+	width:80%;
+	height:30vh;
+}
+
+#item_price, #total_price{
+	border:none;
+}
+
+.buttons{
+	width:100%;
+	text-align:center;
+}
+
+.buttons input{
+	width:50%;
+	height:40px;
+	background-color: #3a3a3a;
+	color:#fff;
+	border-width:1px;
+}
+
+.buttons input:hover{
+	background-color: #370505;
+	color:#fff;
+}
+
+
+/*商品削除フォームのcss*/
+.delete-button{
+	margin-top:20px;
+	width:100%;
+	text-align:center;
+}
+
+.delete-button input{
+	width:50%;
+	height:40px;
+	background-color: red;
+	color:#fff;
+	border-width:1px;
+}
+
+.delete-button input:hover{
+	background-color: #D72C2C;
+	color:#fff;
+}
+
+
+/*戻るボタンのcss*/
+.return-button{
+	margin-top:20px;
+	width:100%;
+	text-align:center;
+}
+
+.return-button input{
+	width:50%;
+	height:40px;
+	background-color: #3a3a3a;
+	color:#fff;
+	border-width:1px;
+}
+
+.return-button input:hover{
+	background-color: #370505;
+	color:#fff;
+}
+
+

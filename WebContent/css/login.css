@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body{
+	margin:0;
+	padding:0;
+}
+
+form{
+	width:70%;
+	height:90%;
+	border:solid 0.5px black;
+	padding:2.5% 2.5%;
+	margin:0 auto;
+}
+
+ul{
+	width:50%;
+	margin:0 auto;
+	list-style:none;
+	text-align:center;
+}
+
+li{
+	margin:5% 0;
+}
+
+li p{
+	text-align: left;
+	margin:0;
+	padding:0;
+}
+
+input{
+	width:80%;
+	text-align:center;
+	height:40px;
+	margin:0;
+	padding:0;
+}
+
+div{
+	text-align: center;
+	margin:5% 0 0;
+}
+
+input[type="button"]{
+	width:30%;
+	height:40px;
+	background-color:#3a3a3a;
+	color:#fff;
+	border-width:1px;
+}
+
+input[type="button"]:hover{
+	background-color: red;
+}
+
+button{
+	width:30%;
+	height:40px;
+	background-color:#3a3a3a;
+	color:#fff;
+	border-width:1px;
+}
+
+button:hover{
+	background-color: red;
+}

@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*ヘッダー部分のcss*/
+.announce-bar{
+	width:100%;
+	height:20px;
+	background-color:#3a3a3a;
+	z-index: 10;
+}
+
+header{
+	width:90%;
+	height:100px;
+	position:relative;
+	top:0;
+	display:flex;
+	align-items:center;
+	background-color:#fff;
+	margin:0 auto;
+}
+
+.header-title{
+	width:25%;
+}
+
+.header-title h1{
+	width:100%;
+}
+
+.home_menu{
+	width:50%;
+	padding:0;
+	text-align:center;
+	align-items:center;
+	font-size:100%;
+}
+
+.icon-wrapper{
+	width:25%
+}
+
+.home_menu a:hover{
+	background-color: #3a3a3a;
+	color:#fff;
+}
+
+ul{
+	position:relative;
+	list-style:none;
+	display:flex;
+	align-items:center;
+	padding:0 10%;
+	margin:0;
+}
+
+li{
+	width:100%;
+	margin:0 15px;
+}
+
+.home_menu a{
+	text-decoration: none;
+	padding:20px;
+	color:#3a3a3a;
+	font-size:18px;
+}
+
+.icon-wrapper button{
+	border:none;
+	background-color: #fff;
+}
+
+.icon-wrapper button:hover{
+	background-color:yellow;
+	transform:scale(1.2, 1.2);
+	transition:1s all;
+}

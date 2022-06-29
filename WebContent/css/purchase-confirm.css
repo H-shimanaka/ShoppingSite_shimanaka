@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+/* 背景画像のcss*/
+.head-img{
+	width:100%;
+	min-height:100vh;
+	background-image:url('../img/main-img4.jpg');
+	background-size:cover;
+	background-repeat: norepeat;
+}
+
+.head-img p{
+	margin:0;
+	color:#fff;
+	font-size:500%;
+	text-align:center;
+	position:absolute;
+	top:50%;
+	width:100%;
+	font-family: 'Dancing Script', cursive;
+}
+
+/*カート内容確認画面のcss*/
+.container{
+	width:95%;
+	min-height:100vh;
+	margin:0 auto;
+	padding:5% 0;
+	background-color: #fff
+}
+
+.cartItems{
+	list-style:none;
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.items{
+	width:22%;
+	text-align:center;
+	border:solid.1px #3a3a3a;
+	padding:2.5%;
+	margin:1% 2%;
+}
+
+.items img{
+	max-width:100%;
+	object-fit:contain;
+}
+
+.check-form{
+	width:30%;
+	margin:5% auto;
+	display:block;
+	text-align: left;
+}
+
+.check-form li{
+	margin:10% 0;
+}
+
+#cart_total_price{
+	border:none;
+}
+
+.purchase-confirm{
+	width:100%;
+	margin-top:5%;
+	text-align:center;
+}
+
+.purchase-confirm button{
+	width:40%;
+	height:40px;
+	background-color: #3a3a3a;
+	color:#fff;
+	border-width:1px;
+}
+
+.purchase-confirm button:hover{
+	background-color: red;
+}
+
+.return-button{
+	width:100%;
+	text-align:center;
+	margin-top:5%;
+}
+
+.return-button button{
+	width:40%;
+	height:40px;
+	background-color: #3a3a3a;
+	color:#fff;
+	border-width:1px;
+}
+
+.return-button button:hover{
+	background-color: red;
+}
+
+

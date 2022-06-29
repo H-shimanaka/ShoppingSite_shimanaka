@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*商品一覧のcss*/
+.container{
+	width:70%;
+	margin:0 auto;
+	padding:5% 0;
+	min-height:80vh;
+	background-color: #fff;
+	display:flex;
+}
+
+.container div{
+	width:40%;
+	margin:0 auto;
+}
+
+.item-image{
+	max-width:100%;
+	object-fit:contain;
+}
+
+#item_price, #total_price{
+	border:none;
+}
+
+.purchase-form button{
+	width:40%;
+	height:40px;
+	background-color: #3a3a3a;
+	color:#fff;
+	border-width:1px;
+	margin-bottom:10%;
+}
+
+.purchase-form button:hover{
+	background-color: red;
+	color:#fff;
+}
+
+

@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+h1{
+	text-align: center;
+}
+
+ul{
+	list-style:none;
+}
+
+/*商品登録フォームのcss*/
+.item-regist{
+	width:50%;
+	margin:0 auto;
+	border:solid 1px black;
+	padding:3%;
+}
+
+.item-regist li{
+	margin:3% 0;
+}
+
+.item-regist input[type="text"]{
+	width:30%;
+	height:30px;
+}
+
+textarea{
+	width:80%;
+	height:30vh;
+}
+
+.regist-buttons{
+	width:100%;
+	text-align:center;
+}
+
+.regist-buttons input{
+	width:30%;
+	height:40px;
+	background-color: #3a3a3a;
+	color:#fff;
+	border-width:1px;
+}
+
+.regist-buttons input:hover{
+	background-color: red;
+}
+
+
+
+/*商品一覧のcss*/
+.registedItems{
+	max-height:100vh;
+	width:90%;
+	margin:10px auto;
+}
+
+.registedItems ul{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.items{
+	width:20%;
+	padding:3%;
+	margin:2% 2%;
+	text-align: center;
+	border:solid 0.5px black;
+}
+
+.items button{
+	width:50%;
+	height:40px;
+	background-color: #3a3a3a;
+	color:#fff;
+	border-width:1px
+}
+
+.items button:hover{
+	background-color: red;
+}
+
+.items-img{
+	max-width:100%;
+	object-fit:contain;
+}
+

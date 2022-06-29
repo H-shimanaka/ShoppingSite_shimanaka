@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body{
+	display:flex;
+}
+
+ul{
+	list-style:none;
+}
+
+
+/*会員画像のcss*/
+.member-photo{
+	width:40%;
+	display:flex;
+	margin:40px auto;
+}
+
+.member-photo img{
+	max-width:100%;
+	object-fit:contain;
+}
+
+
+/*会員情報確認フォームのcss*/
+.member_info{
+	width:40%;
+	margin:40px auto;
+	border:solid 0.5px black;
+	padding:3%;
+}
+
+.member_info li{
+	margin:3% 0;
+}
+
+.return-button{
+	width:100%;
+	text-align: center;
+	margin:10% 0;
+}
+
+.return-button input{
+	width:50%;
+	height:40px;
+	background-color: #3a3a3a;
+	color:#fff;
+	border-width:1px
+}
+
+.return-button input:hover{
+	background-color:red;
+}
+

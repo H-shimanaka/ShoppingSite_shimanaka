@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+body{
+	margin:0;
+	padding:0;
+}
+
+form{
+	width:70%;
+	height:90%;
+	border:solid 0.5px black;
+	padding:2.5% 2.5%;
+	margin: 5% auto;
+}
+
+ul{
+	margin:0 auto;
+	list-style:square;
+}
+
+li{
+	margin:2.5% 0;
+}
+
+div{
+	text-align: center;
+	margin:5% 0;
+}
+
+select{
+	width:15%;
+}
+
+.update-buttons input{
+	width:30%;
+	height:40px;
+	background-color:#3a3a3a;
+	color:#fff;
+	border-width:1px;
+}
+
+.update-buttons input:hover{
+	background-color: red;
+}
+
+.delete-buttons{
+	width:100%;
+	text-align: center;
+}
+
+.delete-buttons button{
+	width:30%;
+	height:40px;
+	margin:5% 0;
+	background-color: red;
+	color:#fff;
+	border-width:1px;
+}
+
+.delete-buttons button:hover{
+	background-color: #D72C2C;
+}
+
+.delete-buttons input{
+	width:30%;
+	height:40px;
+	margin:5% 0;
+	background-color:#3a3a3a;
+	color:#fff;
+	border-width:1px;
+}
+
+.delete-buttons input:hover{
+	background-color: red;
+}
+
